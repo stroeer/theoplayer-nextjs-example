@@ -12,8 +12,7 @@ export default function Home() {
           }],
           "poster": "//cdn.theoplayer.com/video/elephants-dream.png"
       },
-      autoplay: false,
-      preload: "auto"
+      vastUrl: "https://mwcdn.co/vast-demos/creative-1of3.xml"
   }
   return (
     <div className={styles.container}>
